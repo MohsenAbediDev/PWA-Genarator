@@ -20,7 +20,14 @@
   "icons": {
     "128": "assets/icons/icon-128.png"
   },
-  "host_permissions": [
-    "<all_urls>"
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content.js"
+      ]
+    }
   ]
 }
