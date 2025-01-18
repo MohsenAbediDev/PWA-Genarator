@@ -8,9 +8,6 @@
     "activeTab",
     "scripting"
   ],
-  "background": {
-    "service_worker": "js/background.js"
-  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -19,15 +16,5 @@
   },
   "icons": {
     "128": "assets/icons/icon-128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "js/content.js"
-      ]
-    }
-  ]
+  }
 }

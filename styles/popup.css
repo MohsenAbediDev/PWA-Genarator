@@ -36,6 +36,10 @@ button:hover {
 	background: #0056b3;
 }
 
-pre {
+.success-message {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
 	margin-top: 20px;
+	color: #00b33c;
 }
