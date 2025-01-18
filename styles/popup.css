@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root {
+	--primary: #007bff;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,7 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 250px;
-	height: 250px;
+	height: 100px;
 	padding: 10px;
 	background-color: #f9f9f9;
 }
@@ -24,7 +28,7 @@ body {
 
 button {
 	padding: 10px 20px;
-	background: #007bff;
+	background: var(--primary);
 	font-size: 1rem;
 	color: white;
 	border: none;
@@ -33,7 +37,7 @@ button {
 }
 
 button:hover {
-	background: #0056b3;
+	background: var(--primary);
 }
 
 .success-message {

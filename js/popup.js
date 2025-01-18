@@ -67,15 +67,17 @@ pwaGeneratorButton.addEventListener('click', () => {
 				// Show the install prompt after manifest is added
 				const installButton = document.createElement('button')
 				installButton.textContent = 'Install PWA'
-				installButton.style.position = 'fixed'
-				installButton.style.bottom = '20px'
-				installButton.style.right = '20px'
-				installButton.style.zIndex = 1000
-				installButton.style.padding = '10px 20px'
-				installButton.style.background = themeColor
-				installButton.style.color = '#fff'
-				installButton.style.border = 'none'
-				installButton.style.borderRadius = '5px'
+				installButton.style.cssText = `
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				z-index: 1000;
+				padding: 10px 20px;
+				background: #007bff;
+				color: #fff;
+				border: none;
+				border-radius: 5px;`
+
 				document.body.appendChild(installButton)
 
 				installButton.addEventListener('click', () => {
