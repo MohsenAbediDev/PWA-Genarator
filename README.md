@@ -1,4 +1,5 @@
 # Transform Any Website into a Progressive Web App (PWA) with Ease
+![PWA-Generator](https://github.com/user-attachments/assets/a581ae67-ae2d-400d-a028-8e7321cf11aa)
 
 Looking for an easy way to convert websites into fully functional Progressive Web Apps (PWAs)? Our web extension makes it possible with just a few clicks! Turn any website into a powerful web app and enjoy features like offline access, faster load times, and more, without needing any coding skills or custom development.
 
